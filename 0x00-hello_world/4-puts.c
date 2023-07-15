@@ -1,6 +1,8 @@
 #include<stdio.h>
 /*
- *lol bgad
+ *main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
