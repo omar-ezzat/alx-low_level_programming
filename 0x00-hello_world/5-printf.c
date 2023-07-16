@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main function entry point 
+ * main - Entry point 
  *
- * printf function 
+ * Descrption: A C program that prints with printf function 
  *
- * retrun 0
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
