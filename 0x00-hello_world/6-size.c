@@ -4,7 +4,7 @@
  *mian - Entry point
  *
  *Description: using sizeof fun
- * 
+ *
  * return: 0 success
 */
 int main(void)
