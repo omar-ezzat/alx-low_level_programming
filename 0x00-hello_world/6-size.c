@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *mian - Entry point
+ *main - Entry point
  *
- *Description: using sizeof fun
+ *Description: using sizeof to print the size of various types.
  *
- * return: 0 success
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
