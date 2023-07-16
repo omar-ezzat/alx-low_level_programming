@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- *mian - entry point
+ *main - entry point
  *
- *Description: print in other method
+ *Description: print in other method write(int fd,const void *buf,size_t count)
  *
- *Return: 0 succss
+ *Return: 1 (not succss)
 */
 int main(void)
 {
