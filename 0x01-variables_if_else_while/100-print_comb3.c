@@ -10,16 +10,16 @@
 int main(void)
 {
 	int n1 = 0;
-	int n2;
+	int n2 = 0;
 
 	while (n1 <= 8)
 	{
-		n2 += n1;
+		n2 = n1 + 1;
 		while (n2 <= 9)
 		{
 			putchar(n1 + '0');
 			putchar(n2 + '0');
-			if (n2 != 9 && n1 !=8)
+			if (n2 != 9 && n1 != 8)
 			{
 				putchar(',');
 				putchar(' ');
@@ -28,7 +28,7 @@ int main(void)
 		}
 		n1++;
 	}
-		
+
 	putchar('\n');
 
 	return (0);
