@@ -13,8 +13,8 @@ int main(void)
 
 	while (ch <= 'f')
 	{
-	    if (ch = '9'+1)
-            ch = 'a';
+		if (ch = '9'+1)
+			ch = 'a';
 		putchar(ch);
 		ch++;
 	}
