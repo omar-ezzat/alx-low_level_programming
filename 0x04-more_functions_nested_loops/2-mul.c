@@ -5,9 +5,9 @@
  * @a: input first num
  * @b: input second num
  *
- * Return: 1 if the uppercase. 0 if not
+ * Return: the mul result
  */
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
