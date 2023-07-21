@@ -6,8 +6,8 @@
  */
 void print_diagonal(int n)
 {
-	 if (n < 1)
-                _putchar('\n');
+	if (n < 1)
+		_putchar('\n');
 	else
 	{
 		int i, j;
