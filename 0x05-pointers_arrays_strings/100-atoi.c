@@ -6,7 +6,8 @@
  */
 int _atoi(char *s)
 {
-	int num = 0;
+	unsigned int num = 0;
+	int sign = 1;
 	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -16,16 +17,20 @@ int _atoi(char *s)
 			num += s[i] - '0';
 			num *= 10;
 		}
+		else 
+		{
+			break;
+		}
 		if (s[i] == '-')
 		{
-			if (num > 0)
-				num *= -1;
+			if (sign >= 0)
+				sgin *= -1;
 		}
 		if (s[i] == '+')
 		{
-			if (num < 0)
-				num *= -1;
+			if (sign < 0)
+				sgin *= -1;
 		}
 	}
-	return (num / 10);
+	return (num / 10 * sgin);
 }
