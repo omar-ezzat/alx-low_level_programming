@@ -24,13 +24,13 @@ int _atoi(char *s)
 		if (s[i] == '-')
 		{
 			if (sign >= 0)
-				sgin *= -1;
+				sign *= -1;
 		}
 		if (s[i] == '+')
 		{
 			if (sign < 0)
-				sgin *= -1;
+				sign *= -1;
 		}
 	}
-	return (num / 10 * sgin);
+	return (num / 10 * sign);
 }
