@@ -27,5 +27,5 @@ int _atoi(char *s)
 				num *= -1;
 		}
 	}
-	return (num);
+	return (num / 10);
 }
