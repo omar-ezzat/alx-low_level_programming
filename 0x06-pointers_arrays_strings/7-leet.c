@@ -6,8 +6,8 @@
 char *leet(char *c)
 {
 	char *cp = c;
-	char key[] = {'A', 'E', '0', 'T', 'L'};
-	int value[] = {4, 3, 0, 7, 1};
+	char key[5] = {'A', 'E', 'O', 'T', 'L'};
+	int value[5] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
 	while (*c)
