@@ -1,7 +1,8 @@
 #include"main.h"
 /**
- *
- *
+ *leet - encodes a string
+ *@c: input string
+ *Return: string
  */
 char *leet(char *c)
 {
