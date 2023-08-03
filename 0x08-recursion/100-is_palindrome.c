@@ -34,7 +34,7 @@ int check(char *s, int start, int end)
 {
 	if (s[start] != s[end -1])
 		return (0);
-	if (i >= len)
+	if (start >= end)
 		return (1);
 	return (check(s, start + 1, end -1));
 }
