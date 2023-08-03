@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - square root of a number.
  * @n: number
+ * @val: int
  * Return: squar int
  */
 int square(int n, int val);

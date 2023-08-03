@@ -4,7 +4,8 @@ int _str_ln(char *s);
 /**
  * is_palindrome - checker
  * @s: string
- * return: int
+
+ * Return: int
  */
 int is_palindrome(char *s)
 {
@@ -19,22 +20,22 @@ int is_palindrome(char *s)
  */
 int _str_ln(char *s)
 {
-	if (*s =='\0')
+	if (*s == '\0')
 		return (0);
-	return(1 + _str_ln(s + 1));
+	return (1 + _str_ln(s + 1));
 }
 /**
  * check - check characters
  * @s: string
- * @i: start
+ * @start: start
  * @end: len
  * Return: 1 or 0
  */
 int check(char *s, int start, int end)
 {
-	if (s[start] != s[end -1])
+	if (s[start] != s[end - 1])
 		return (0);
 	if (start >= end)
 		return (1);
-	return (check(s, start + 1, end -1));
+	return (check(s, start + 1, end - 1));
 }
