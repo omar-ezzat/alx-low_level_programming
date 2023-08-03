@@ -4,7 +4,6 @@ int _str_ln(char *s);
 /**
  * is_palindrome - checker
  * @s: string
-
  * Return: int
  */
 int is_palindrome(char *s)
