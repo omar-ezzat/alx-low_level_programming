@@ -6,7 +6,7 @@
  * @argv: array of pointers
  * Return: 0-success, non-zero-fail
  */
-int mian(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
