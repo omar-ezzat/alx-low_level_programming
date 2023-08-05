@@ -10,8 +10,10 @@ int mian(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		int i, leastcents = 0, money = atoi(argv[1]);
-		int coins[5] = {25, 10, 5, 2, 1};
+		int i;
+		int least = 0;
+		int money = atoi(argv[1]);
+		int coins[] = {25, 10, 5, 2, 1};
 		
 		if (money < 0)
 		{
@@ -22,7 +24,7 @@ int mian(int argc, char **argv)
 		{
 			if (money >= coins[i])
 			{
-				leastcents += money / coins[i];
+				least += money / coins[i];
 				money = money % coins[i];
 				if (money % coins[i] == 0)
 				{
@@ -30,7 +32,7 @@ int mian(int argc, char **argv)
 				}
 			}
 		}
-		printf("%d\n", leastcents);
+		printf("%d\n", least);
 	}
 	else
 	{
