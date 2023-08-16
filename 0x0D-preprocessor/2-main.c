@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mian - print name 
+ * mian - print name
  *
  * Return: 0 success
  *
