@@ -1,5 +1,7 @@
 #include "lists.h"
-
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * add_node_list - adds a node to the end of the list
  * @head: address of pointer to head node
